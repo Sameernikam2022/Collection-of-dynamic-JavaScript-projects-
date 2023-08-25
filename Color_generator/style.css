@@ -1,0 +1,48 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Carlito:ital@1&family=Inter&family=Kanit&family=Libre+Baskerville&family=Merriweather:wght@300&family=PT+Serif&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   transition: 1s;
+    font-family: 'Carlito', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 25rem;
+   
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    font-size: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:0.5rem;
+   cursor: pointer;
+
+
+}
